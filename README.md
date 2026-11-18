@@ -18,23 +18,21 @@ Las farmacias de cadena concentran cerca del 85% de las ventas, pero las farmaci
 - Escáner de receta médica con IA: se sube o se escanea el documento y la app lee los medicamentos.
 - Historial de recetas y búsquedas.
 - Alertas de stock.
-- Sugiere un bioequivalente si la marca que buscas no está disponible (siempre con el aviso de consultar a un farmacéutico).
-- Si ninguna farmacia tiene todos los medicamentos, arma una ruta con las farmacias más cercanas entre sí.
 - Pensada para ser accesible.
 
 ## Tecnologías
 
 - Frontend: React y Leaflet para los mapas
-- Backend: (completar)
+- Backend: Supabase
 - Base de datos: MongoDB
-- OCR para leer las recetas
+- Gemini para leer las recetas
 - Herramientas: GitHub, Postman, MongoDB Compass y Trello
 
 ## Estructura del repositorio
 
 ```
 CAPSTONE/
-├── CAPSTONE/    # código del proyecto
+├── CAPSTONE/   
 └── README.md
 ```
 
